@@ -88,7 +88,7 @@ public class TestStudent {
 
         this.student.dropClass("James","145",2017);
 
-        assertFalse(this.student.isRegisteredFor("James","145",207));
+        assertFalse(this.student.isRegisteredFor("James","145",2017));
 
     }
 
@@ -101,7 +101,7 @@ public class TestStudent {
 
         this.student.dropClass("Yun","145",2017);
 
-        assertFalse(this.student.isRegisteredFor("Yun","145",207));
+        assertFalse(this.student.isRegisteredFor("Yun","145",2017));
 
     }
 
